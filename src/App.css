@@ -1,0 +1,66 @@
+#root {
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  justify-content: center;
+  padding-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 15px;
+}
+
+form button {
+  padding: 10px 45px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  display: block;
+  transition: border-color 0.25s;
+}
+input:hover {
+  border-color: #646cff;
+}
+
+input:focus,
+input:focus-visible {
+  outline: 6px;
+}
+
+label {
+  font-size: 0.9em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+section li {
+  list-style: none;
+}
+
+
+
+
